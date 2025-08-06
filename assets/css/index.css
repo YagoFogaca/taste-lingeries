@@ -1,0 +1,72 @@
+/* CONFIGURAÇÂO DA PÁGINA */
+
+body {
+  background-color: #000000;
+}
+
+main {
+  padding: 15px 5px;
+}
+
+header.header-menu {
+  box-shadow: 0px 0px 10px 0px rgb(255 255 255 / 40%);
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img#logo {
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+}
+
+section.section-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p.price {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* RESET BOOSTRAP */
+
+figure {
+  margin: 0;
+  width: min-content;
+}
+
+a.nav-link {
+  color: #a890a0;
+}
+
+a.nav-link:focus,
+.nav-link:hover {
+  color: #a890a042;
+}
+
+div.card {
+  width: 48%;
+  max-width: 290px;
+  background-color: #161616;
+}
+
+h6.card-title {
+  color: #838383;
+  white-space: nowrap; /* Impede a quebra de linha */
+  overflow: hidden; /* Oculta o texto que ultrapassar o contêiner */
+  text-overflow: ellipsis;
+}
+
+p.card-text:last-child {
+  margin-bottom: 0;
+  color: #838383;
+}
+
+/* PARA TESTES */
