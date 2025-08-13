@@ -1,31 +1,28 @@
+import "./index.header.css";
+import logo from "../../assets/imgs/profile/logo.jpeg";
+
+import { Nav, Navbar } from "react-bootstrap";
+
 export const HeaderComponents = () => {
   return (
     <>
       <header class="header-menu">
         <div>
           <figure>
-            <img
-              id="logo"
-              src="assets/img/logo.jpeg"
-              alt="Logo Taste Tingeries"
-            />
+            <img id="logo" src={logo} alt="Logo Taste Tingeries" />
           </figure>
         </div>
 
-        <nav class="navbar">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#lingeries">
-                Lingeries
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                SexShop
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <Navbar class="navbar">
+          <Nav class="nav justify-content-end">
+            <Nav.Link class="nav-link" aria-current="page" href="#lingeries">
+              Lingeries
+            </Nav.Link>
+            <Nav.Link class="nav-link" href="#">
+              SexShop
+            </Nav.Link>
+          </Nav>
+        </Navbar>
       </header>
     </>
   );
