@@ -1,0 +1,36 @@
+section.section-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.card {
+  width: 48%;
+  max-width: 290px;
+  background-color: #161616;
+}
+
+img.teste {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 14px;
+  color: #838383;
+  white-space: nowrap; /* Impede a quebra de linha */
+  overflow: hidden; /* Oculta o texto que ultrapassar o contêiner */
+  text-overflow: ellipsis;
+}
+
+p.price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+p.card-text:last-child {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #838383;
+}
