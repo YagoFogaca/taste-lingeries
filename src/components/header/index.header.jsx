@@ -6,7 +6,7 @@ import { Nav, Navbar } from "react-bootstrap";
 export const HeaderComponents = () => {
   return (
     <>
-      <header className="header-menu">
+      <Navbar className="header-menu sticky-top">
         <div>
           <figure>
             <img id="logo" src={logo} alt="Logo Taste Tingeries" />
@@ -15,18 +15,15 @@ export const HeaderComponents = () => {
 
         <Navbar className="navbar">
           <Nav className="nav justify-content-end">
-            <Nav.Link
-              className="nav-link"
-              aria-current="page"
-              href="#lingeries">
+            <Nav.Link className="nav-link" aria-current="page" href="#lingerie">
               Lingeries
             </Nav.Link>
-            <Nav.Link className="nav-link" href="#">
+            <Nav.Link className="nav-link" href="#sexshop">
               SexShop
             </Nav.Link>
           </Nav>
         </Navbar>
-      </header>
+      </Navbar>
     </>
   );
 };

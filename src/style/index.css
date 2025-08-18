@@ -1,7 +1,19 @@
+:root {
+  --nav-h: 84px;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-h);
+}
+
 body {
   background-color: #000000;
 }
 
 main {
   padding: 15px 5px;
+}
+
+.section-cards {
+  scroll-margin-top: calc(var(--nav-h) + 8px);
 }
