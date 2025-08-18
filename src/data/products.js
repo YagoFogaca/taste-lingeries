@@ -38,7 +38,7 @@ export const products = [
     name: "Conjunto Ligia",
     price: 69.99,
     size: "M, GG",
-    color: "",
+    color: "Preto",
     type: "lingerie",
     images: [{ src: "conjunto-ligia.png", alt: "conjunto-ligia-frente" }],
   },
@@ -140,7 +140,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "vale-amor.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "vale-amor.png", alt: "Vale do Amor" }],
   },
   {
     name: "Estimulante",
@@ -148,34 +148,31 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "estimulante.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "estimulante.png", alt: "Estimulante" }],
   },
-
   {
     name: "Lubrificante",
     price: 9.99,
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-3.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "lubrificante-3.png", alt: "Lubrificante" }],
   },
-
   {
     name: "Lubrificante",
     price: 14.99,
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "lubrificante.png", alt: "Lubrificante" }],
   },
-
   {
     name: "Lubrificante",
     price: 14.99,
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-2.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "lubrificante-2.png", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -183,7 +180,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-7.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "lubrificante-7.png", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -191,7 +188,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-6.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "lubrificante-6.png", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -199,7 +196,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-4.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "lubrificante-4.png", alt: "Lubrificante" }],
   },
   {
     name: "Plug",
@@ -207,7 +204,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-4.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "plug.png", alt: "Plug" }],
   },
   {
     name: "Kit Sensações",
@@ -215,6 +212,6 @@ export const products = [
     size: "-",
     color: "Preto e rosa",
     type: "sexshop",
-    images: [{ src: "lubrificante.png", alt: "camisola-serena-frente" }],
+    images: [{ src: "lubrificante.png", alt: "Plug + Lubrificante" }],
   },
 ];
