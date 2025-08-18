@@ -18,8 +18,8 @@ img.teste {
 .card-title {
   font-size: 14px;
   color: #838383;
-  white-space: nowrap; /* Impede a quebra de linha */
-  overflow: hidden; /* Oculta o texto que ultrapassar o contêiner */
+  white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -29,8 +29,13 @@ p.price {
   color: #fff;
 }
 
-p.card-text:last-child {
+p.card-text:nth-last-child(-n + 4) {
   font-size: 14px;
   margin-bottom: 0;
   color: #838383;
+}
+
+p.text-infos {
+  font-size: 15px !important;
+  font-weight: 500;
 }
