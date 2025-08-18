@@ -6,19 +6,22 @@ import { Nav, Navbar } from "react-bootstrap";
 export const HeaderComponents = () => {
   return (
     <>
-      <header class="header-menu">
+      <header className="header-menu">
         <div>
           <figure>
             <img id="logo" src={logo} alt="Logo Taste Tingeries" />
           </figure>
         </div>
 
-        <Navbar class="navbar">
-          <Nav class="nav justify-content-end">
-            <Nav.Link class="nav-link" aria-current="page" href="#lingeries">
+        <Navbar className="navbar">
+          <Nav className="nav justify-content-end">
+            <Nav.Link
+              className="nav-link"
+              aria-current="page"
+              href="#lingeries">
               Lingeries
             </Nav.Link>
-            <Nav.Link class="nav-link" href="#">
+            <Nav.Link className="nav-link" href="#">
               SexShop
             </Nav.Link>
           </Nav>
