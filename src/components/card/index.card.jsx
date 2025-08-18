@@ -40,10 +40,11 @@ export const CardComponents = ({ product }) => {
             currency: "BRL",
           })}
         </Card.Text>
-        <Card.Text>
-          Disponível no: <br />
-          {product.size}
-        </Card.Text>
+        <Card.Text className="text-infos">Tamanhos:</Card.Text>
+        <Card.Text>{product.size}</Card.Text>
+
+        <Card.Text className="text-infos">Cores:</Card.Text>
+        <Card.Text>{product.color}</Card.Text>
       </Card.Body>
     </Card>
   );
