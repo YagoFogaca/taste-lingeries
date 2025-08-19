@@ -34,9 +34,3 @@ export const Main = () => {
     </>
   );
 };
-
-// <section className="section-cards">
-//   {products.map((product, index) => {
-//     return <CardComponents product={product} key={index} />;
-//   })}
-// </section>
