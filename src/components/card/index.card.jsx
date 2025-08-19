@@ -1,4 +1,5 @@
 import { Card, Carousel } from "react-bootstrap";
+import { ProductImage } from "../product-image/index.product-image";
 import "./index.card.css";
 
 export const CardComponents = ({ product }) => {
@@ -18,15 +19,13 @@ export const CardComponents = ({ product }) => {
         interval={5000}
         pause="hover"
         touch>
-        {product.images.map((img) => (
+        {product.images.map((img, idx) => (
           <Carousel.Item key={`${product.name}-${img.src}`}>
-            <img
-              src={publicPath(`products/${img.src}`)}
+            <ProductImage
+              base={img.src}
               alt={img.alt}
-              className="d-block w-100"
-              onError={(e) => {
-                e.currentTarget.src = publicPath("products/placeholder.png");
-              }}
+              eager={idx === 0}
+              sizes="(max-width: 768px) 95vw, 520px"
             />
           </Carousel.Item>
         ))}

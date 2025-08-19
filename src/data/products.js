@@ -6,8 +6,8 @@ export const products = [
     color: "Preto",
     type: "lingerie",
     images: [
-      { src: "conjunto-beverly.png", alt: "conjunto-beverly-frente" },
-      { src: "conjunto-beverly-2.png", alt: "conjunto-beverly-costa" },
+      { src: "conjunto-beverly", alt: "conjunto-beverly-frente" },
+      { src: "conjunto-beverly-2", alt: "conjunto-beverly-costa" },
     ],
   },
   {
@@ -17,10 +17,10 @@ export const products = [
     color: "Preto e vermelho",
     type: "lingerie",
     images: [
-      { src: "conjunto-laura.png", alt: "conjunto-laura-vermelho-frente" },
-      { src: "conjunto-laura-2.png", alt: "conjunto-laura-vermelho-costa" },
-      { src: "conjunto-laura-3.png", alt: "conjunto-laura-preto-frente" },
-      { src: "conjunto-laura-4.png", alt: "conjunto-laura-preto-costa" },
+      { src: "conjunto-laura", alt: "conjunto-laura-vermelho-frente" },
+      { src: "conjunto-laura-2", alt: "conjunto-laura-vermelho-costa" },
+      { src: "conjunto-laura-3", alt: "conjunto-laura-preto-frente" },
+      { src: "conjunto-laura-4", alt: "conjunto-laura-preto-costa" },
     ],
   },
   {
@@ -30,8 +30,8 @@ export const products = [
     color: "Rosa",
     type: "lingerie",
     images: [
-      { src: "conjunto-mandy.png", alt: "conjunto-mandy-frente" },
-      { src: "conjunto-mandy-2.png", alt: "conjunto-mandy-costa" },
+      { src: "conjunto-mandy", alt: "conjunto-mandy-frente" },
+      { src: "conjunto-mandy-2", alt: "conjunto-mandy-costa" },
     ],
   },
   {
@@ -40,7 +40,7 @@ export const products = [
     size: "M, GG",
     color: "Preto",
     type: "lingerie",
-    images: [{ src: "conjunto-ligia.png", alt: "conjunto-ligia-frente" }],
+    images: [{ src: "conjunto-ligia", alt: "conjunto-ligia-frente" }],
   },
   {
     name: "Calcinha Borboleta",
@@ -49,8 +49,8 @@ export const products = [
     color: "Verde e roxo",
     type: "lingerie",
     images: [
-      { src: "calcinha-borboleta.png", alt: "calcinha-borboleta-roxo" },
-      { src: "calcinha-borboleta-2.png", alt: "calcinha-borboleta-verde" },
+      { src: "calcinha-borboleta", alt: "calcinha-borboleta-roxo" },
+      { src: "calcinha-borboleta-2", alt: "calcinha-borboleta-verde" },
     ],
   },
   {
@@ -60,10 +60,10 @@ export const products = [
     color: "Vermelho e preto",
     type: "lingerie",
     images: [
-      { src: "calcinha-confort.png", alt: "calcinha-confort-vermelho-frente" },
-      { src: "calcinha-confort-2.png", alt: "calcinha-confort-vermelho-costa" },
-      { src: "calcinha-confort-3.png", alt: "calcinha-confort-preto-frente" },
-      { src: "calcinha-confort-4.png", alt: "calcinha-confort-preto-costa" },
+      { src: "calcinha-confort", alt: "calcinha-confort-vermelho-frente" },
+      { src: "calcinha-confort-2", alt: "calcinha-confort-vermelho-costa" },
+      { src: "calcinha-confort-3", alt: "calcinha-confort-preto-frente" },
+      { src: "calcinha-confort-4", alt: "calcinha-confort-preto-costa" },
     ],
   },
   {
@@ -73,10 +73,10 @@ export const products = [
     color: "Preto",
     type: "lingerie",
     images: [
-      { src: "calcinha-renda.png", alt: "calcinha-renda-frente" },
-      { src: "calcinha-renda-2.png", alt: "calcinha-renda-costa" },
-      { src: "calcinha-renda-3.png", alt: "calcinha-renda-frente" },
-      { src: "calcinha-renda-4.png", alt: "calcinha-renda-costa" },
+      { src: "calcinha-renda", alt: "calcinha-renda-frente" },
+      { src: "calcinha-renda-2", alt: "calcinha-renda-costa" },
+      { src: "calcinha-renda-3", alt: "calcinha-renda-frente" },
+      { src: "calcinha-renda-4", alt: "calcinha-renda-costa" },
     ],
   },
   {
@@ -86,8 +86,8 @@ export const products = [
     color: "Preto e rosa",
     type: "lingerie",
     images: [
-      { src: "calcinha-cos-alto.png", alt: "calcinha-cos-alto-frente" },
-      { src: "calcinha-cos-alto-2.png", alt: "calcinha-cos-alto-costa" },
+      { src: "calcinha-cos-alto", alt: "calcinha-cos-alto-frente" },
+      { src: "calcinha-cos-alto-2", alt: "calcinha-cos-alto-costa" },
     ],
   },
   {
@@ -97,8 +97,8 @@ export const products = [
     color: "Vermelho",
     type: "lingerie",
     images: [
-      { src: "calcinha-micro.png", alt: "calcinha-micro-frente" },
-      { src: "calcinha-micro-2.png", alt: "calcinha-micro-costa" },
+      { src: "calcinha-micro", alt: "calcinha-micro-frente" },
+      { src: "calcinha-micro-2", alt: "calcinha-micro-costa" },
     ],
   },
   {
@@ -108,8 +108,8 @@ export const products = [
     color: "Rosa e branco",
     type: "lingerie",
     images: [
-      { src: "calcinha-megan.png", alt: "calcinha-megan-frente" },
-      { src: "calcinha-megan-2.png", alt: "calcinha-megan-costa" },
+      { src: "calcinha-megan", alt: "calcinha-megan-frente" },
+      { src: "calcinha-megan-2", alt: "calcinha-megan-costa" },
     ],
   },
   {
@@ -119,8 +119,8 @@ export const products = [
     color: "Preto",
     type: "lingerie",
     images: [
-      { src: "robe-gabriele.png", alt: "robe-gabriele-frente" },
-      { src: "robe-gabriele-2.png", alt: "robe-gabriele-costa" },
+      { src: "robe-gabriele", alt: "robe-gabriele-frente" },
+      { src: "robe-gabriele-2", alt: "robe-gabriele-costa" },
     ],
   },
   {
@@ -130,8 +130,8 @@ export const products = [
     color: "Preto",
     type: "lingerie",
     images: [
-      { src: "camisola-serena.png", alt: "camisola-serena-frente" },
-      { src: "camisola-serena-2.png", alt: "camisola-serena-costa" },
+      { src: "camisola-serena", alt: "camisola-serena-frente" },
+      { src: "camisola-serena-2", alt: "camisola-serena-costa" },
     ],
   },
   {
@@ -140,7 +140,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "vale-amor.png", alt: "Vale do Amor" }],
+    images: [{ src: "vale-amor", alt: "Vale do Amor" }],
   },
   {
     name: "Estimulante",
@@ -148,7 +148,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "estimulante.png", alt: "Estimulante" }],
+    images: [{ src: "estimulante", alt: "Estimulante" }],
   },
   {
     name: "Lubrificante",
@@ -156,7 +156,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-3.png", alt: "Lubrificante" }],
+    images: [{ src: "lubrificante-3", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -164,7 +164,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante.png", alt: "Lubrificante" }],
+    images: [{ src: "lubrificante", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -172,7 +172,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-2.png", alt: "Lubrificante" }],
+    images: [{ src: "lubrificante-2", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -180,7 +180,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-7.png", alt: "Lubrificante" }],
+    images: [{ src: "lubrificante-7", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -188,7 +188,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-6.png", alt: "Lubrificante" }],
+    images: [{ src: "lubrificante-6", alt: "Lubrificante" }],
   },
   {
     name: "Lubrificante",
@@ -196,7 +196,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "lubrificante-4.png", alt: "Lubrificante" }],
+    images: [{ src: "lubrificante-4", alt: "Lubrificante" }],
   },
   {
     name: "Plug",
@@ -204,7 +204,7 @@ export const products = [
     size: "-",
     color: "-",
     type: "sexshop",
-    images: [{ src: "plug.png", alt: "Plug" }],
+    images: [{ src: "plug", alt: "Plug" }],
   },
   {
     name: "Kit Sensações",
@@ -212,6 +212,6 @@ export const products = [
     size: "-",
     color: "Preto e rosa",
     type: "sexshop",
-    images: [{ src: "lubrificante.png", alt: "Plug + Lubrificante" }],
+    images: [{ src: "lubrificante", alt: "Plug + Lubrificante" }],
   },
 ];
