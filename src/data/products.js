@@ -34,14 +34,14 @@ export const products = [
       { src: "conjunto-mandy-2", alt: "conjunto-mandy-costa" },
     ],
   },
-  {
-    name: "Conjunto Ligia",
-    price: 69.99,
-    size: "M, GG",
-    color: "Preto",
-    type: "lingerie",
-    images: [{ src: "conjunto-ligia", alt: "conjunto-ligia-frente" }],
-  },
+  // {
+  //   name: "Conjunto Ligia",
+  //   price: 69.99,
+  //   size: "M, GG",
+  //   color: "Preto",
+  //   type: "lingerie",
+  //   images: [{ src: "conjunto-ligia", alt: "conjunto-ligia-frente" }],
+  // },
   {
     name: "Calcinha Borboleta",
     price: 24.9,
